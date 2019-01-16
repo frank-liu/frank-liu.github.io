@@ -20,6 +20,8 @@
 		}
 		.squarelist{
 			list-style-type: square !important;
+			color: #4e4e4e !important;
+    		font-size: 1em !important;
 		}
 	</style>
 </head>
@@ -35,9 +37,8 @@
 				    <ul>
 				        <li class="active"><a href="#about">About</a></li>
 				        <li><a href="#skills">Skills</a></li>
-						<li><a href="#experiences">Experiences</a></li>	
-                        <li><a href="#education">Education</a></li>						
-				        <li><a href="#achievements">Achievements</a></li>
+						<li><a href="#experiences">Experiences</a></li> 
+				        <li><a href="#educations">Educations</a></li>
 				        
 				    </ul>
 				</nav>
@@ -63,6 +64,51 @@
 		</div>
 	</div>
 
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / PHP / Javascript </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL / Redis / Memcached</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>CMS</li>
+				<li>WordPress</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>Bootstrap / jQuery / Node.js</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Server</li>
+				<li>AWS/ Linux / Apache / Nginx</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Desktop</li>
+				<li>WPF / C# / Cefsharp</li>
+			</ul>
+		</div>
+		<div class="container">
+			<h1>Technical<br>Tools</h1>
+			<ul class="skill-list list-flat">
+				<li>IDE</li>
+				<li>Visual Studio / Sublime / VS Code</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Testing</li>
+				<li>Postman / JMeter / ApacheBench / PHPUnit</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Version Control </li>
+				<li>Git / SVN</li>
+			</ul> 
+		</div>
+	</div>
 	<!-- Work Experience -->
 	<div class="work section second" id="experiences">
 		<div class="container">
@@ -70,73 +116,78 @@
 			<ul class="work-list">
 				<li>Apr 2017 – Present</li>
 				<li><a href="#">ISTORAGE LTD, LONDON, UK</a></li>
-				<li>WEB DEVELOPER</li>
-				<ul class="squarelist">
+				<li>Web Developer</li>
+				<ul>
 					<li class="squarelist">Working on a cloud platform for data protection solution.</li>
 					<li class="squarelist">Designed structure and wrote up development document of each sub-system of the solution: hardware encryption & decryption, client app for common users, client app for admin based on Chromium, high availability server architecture hosting by AWS.</li>
 					<li class="squarelist">Using cache to increase concurrency level.</li>
-					<li class="squarelist"></li>
+					<li class="squarelist">Developed APIs for client apps.</li>
+					<li class="squarelist">Implemented mutual communications with socket.io.</li>
+					<li class="squarelist">Developing UI of the cloud platform and the admin client app.</li>
+					<li class="squarelist">Using WPF, JavaScript and Cefsharp to develop admin client app.</li>
 				</ul>
 			</ul>
 			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Wego</a></li>
-				<li>UI/UX Designer</li>
+				<li>May 2012 – Mar 2017</li>
+				<li><a href="#">SWANMESH NETWORKS LTD, LONDON, UK</a></li>
+				<li>Feb 2015 – Mar 2017, Web Developer</li>
+				<ul>
+					<li class="squarelist">Worked on website development by customising WordPress based on Bootstrap, jQuery, HTML, CSS, MySQL and PHP.</li> 
+				</ul>
+				<li>May 2012 – Jan 2015, Embedded Software Engineer</li>
+				<ul>
+					<li class="squarelist">Improved and set up a wireless secure surveillance network based on my previous M.Phil. research educations: secured routing algorithm and customised Linux OS running on the networking router.</li> 
+				</ul>
 			</ul>
 			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Garuda Indonesia</a></li>
-				<li>System Designer</li>
+				<li>Aug 2010 – Sep 2010</li>
+				<li><a href="#">APPLIED MATERIALS, XI'AN, CHINA</a></li>
+				<li>Software Engineer</li>
+				<ul>
+					<li class="squarelist">Developed code for moderately software projects, and implemented bug fixes.</li> 
+				</ul>
 			</ul>
 		</div>
 	</div>
 
-	<!-- Award & Achievements -->
-	<div class="award section second" id="achievements">
+	<!-- Award & educations -->
+	<div class="award section second" id="educations">
 		<div class="container">
-			<h1>Award &amp;<br>Achievements</h1>
+			<h1>Educations</h1>
 			<ul class="award-list list-flat">
-				<li>January 2014</li>
-				<li>Attained PHP5 certification</li>
-				<li>Hold world/Olympic record</li>
+				<li>2010 – 2012</li>
+				<li ><a style="padding-bottom: 5px;font-size: 1em;font-weight: 700;border-bottom: 1px solid #b3b3b3;">MASTER OF PHILOSOPHY - MPHIL, TELECOMMUNICATIONS</a>
+				</li>
+				<li>SWANSEA UNIVERSITY, UK</li>
+				<li>Worked on few research projects funded by the UK innovation agency.</li>
+				<ul>
+					<li class="squarelist">A Secure and Trusted Community Wireless Mesh Network (AST-Net)<br>It secures routing by using asymmetrical security keys and digital signature to recognise malicious intrusion, as well as securing users’ access to the wireless network.</li>
+					<li class="squarelist">An Intelligent Interference-Aware Wireless Network<br>Automatically choosing the best wireless channel for networking nodes to reduce channel interference and improve signal strength. The developed network is very useful in data sensitive applications, such as healthcare and military.</li> 
+				</ul>
+				<li>Wrote up thesis: Intrusion Detection and Tolerance for Wireless Mesh Networks</li>
+				<ul>
+					<li class="squarelist">For protecting wireless networking communication, it describes a solution to minimise the effects of networking attacks, especially for the packets drop attack, by improving AODV routing protocol based on reputation algorithm.</li>
+				</ul>
+
 			</ul>
 			<ul class="award-list list-flat">
-				<li>December 2014</li>
-				<li>Audited X number of clients in only Y amount of time</li>
-				<li>Held a perfect attendance record</li>
-				<li>Were promoted after only X months in the role</li>
+				<li>2007-2010</li>
+				<li>
+					<a style="padding-bottom: 5px;font-size: 1em;font-weight: 700;border-bottom: 1px solid #b3b3b3;">MASTER, MECHANICAL MANUFACTURE AND AUTOMATION</a>
+				</li>
+				<li>XI'AN JIAOTONG UNIVERSITY, CHINA</li>
+				<li>Participated in projects of Enterprise Resource Planning (ERP) and electronic circuit design.</li>
 			</ul>
-			<ul class="award-list list-flat">
-				<li>March 2014</li>
-				<li>Placed employees at X companies</li>
-				<li>United multiple teams post-merger</li>
-			</ul>
+			 
 		</div>
 	</div>
 
-	<!-- Technical Skills -->
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li>HTML / CSS / SASS / PHP / Javascript</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Database</li>
-				<li>MySQL / MongoDB / Oracle / Access</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Framework</li>
-				<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
-			</ul>
-		</div>
-	</div>
+	
 
 	<!-- Quote -->
 	<div class="quote">
 		<div class="container text-centered">
-			<h1>fight against the ugliness.</h1>
+			<h1>enjoy life while working smart.</h1>
 		</div>
 	</div>
 
@@ -144,7 +195,7 @@
 		<div class="container">
 			<div class="units-row">
 			    <div class="unit-50">
-			    	<p>Handcrafted by Afnizar Nur Ghifari</p>
+			    	<p>Contact</p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
